@@ -71,7 +71,9 @@ nav ul li a:hover{
 }
 section{
 	width: 100%;
-	height: 1470px;
+	min-height: 1470px;
+	max-height: 3000px;
+
 }
 .slidermenu{
 	width: 20%;
@@ -202,7 +204,10 @@ section{
   	margin-right: 40px;
   	overflow: hidden;
   	background-color: #f2f2f2;
-  	border-radius: 15px;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.prod-card:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .prod-image {
   	position: relative;
@@ -293,8 +298,10 @@ footer{
 	width: 100%;
 	background-color: #28282B;
 	z-index: 9;
-	position: absolute;
+	/*position: absolute;*/
+	position: fixed;
 	text-align: center;
+	bottom: 0;
 }
 footer p{
 	padding: 10px;

@@ -83,7 +83,7 @@ section
 	width: 800px;
 	height: 450px;
 	background-color: white;
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	font-family: 'Roboto', sans-serif;
 }
 .prod-det-img{

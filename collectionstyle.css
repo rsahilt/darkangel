@@ -71,7 +71,8 @@ nav ul li a:hover{
 }
 section{
 	width: 100%;
-	height: 100%;
+	min-height: 1900px;
+	max-height: 3000px;
 }
 .slidermenu{
 	width: 20%;
@@ -184,15 +185,18 @@ section{
   	margin-right: 40px;
   	overflow: hidden;
   	background-color: #f2f2f2;
-  	border-radius: 15px;
   	float: left;
   	margin-bottom: 30px;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .prod-image {
   	position: relative;
   	width: 100%;
   	height: 370px;
   	overflow: hidden;
+}
+.prod-card:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .prod-thumb {
   	width: 100%;
@@ -236,18 +240,17 @@ section{
   	background: #ff7d7d;
   	color: #fff;
 }
-/*footer{
+footer{
 	width: 100%;
 	background-color: #28282B;
 	z-index: 9;
+	/*position: absolute;*/
 	position: fixed;
-	bottom: 0px;
 	text-align: center;
+	bottom: 0;
 }
 footer p{
 	padding: 10px;
 	font-family: font-family: 'Lato', sans-serif;
 	color: #ff3232;
-}*/
-
-/*----------------------------------------------------not diplayed*/
+}
